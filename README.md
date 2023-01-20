@@ -20,14 +20,14 @@ We are helping an investor learn more about the temperature in Oahu before inves
   - Creating a new list by loop through the list of tuples from step 1 and taking the result of the in the first index of each tuple, as seen in #2.
   - Create a pandas Dataframe with the list created in step 2 and name the column "June Temps", as seen in #3.
   - Obtain summary statistics with the describe function, as seen in #4.
-![Deliverable 1](Resources/Deliverable 1.PNG)
+![Deliverable 1](Resources/Deliverable_1.PNG)
 
 - December Temperature Data (Deliverable 2)
   - Query the temperature observed column on the measurement table and filter by the date column in the measurement table for when month equals 12, as seen in #6.
   - Creating a new list by loop through the list of tuples from step 6 and taking the result of the in the first index of each tuple, as seen in #7.
   - Create a pandas Dataframe with the list created in step 7 and name the column "December Temps", as seen in #8.
   - Obtain summary statistics with the describe function, as seen in #9.
-![Deliverable 2](Resources/Diverable 2.PNG)
+![Deliverable 2](Resources/Diverable_2.PNG)
 
 **Learnings**
 
@@ -35,7 +35,7 @@ We are helping an investor learn more about the temperature in Oahu before inves
 - The biggest difference in the distribution between June and December is the minimum temperature for each month. December's minimum temperature of 56 was 8 degrees colder than June's 64 minimum temperature. Nothing past the 25% percentile differed by more than 4 degrees staying closer toward the max.
 - The total count of observations of 1517 from December is 183 observations lower than that of June's 1700 observations.
 
-![June Temperature Data](Resources/June_DataFrame_Summary.png)
+![June Temperature Data](Resources/June_DataFrame_Summary.png) 
 ![December Temperature Data](Resources/December_DataFrame_Summary.png)
 
 ## Oahu Weather Audit Summary
